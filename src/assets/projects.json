@@ -11,7 +11,7 @@
     "title": "Detecting Bank Fraud Transaction Using ML",
     "languages": "Python",
     "description": "This is my personal version project of unit COS30049 - Innovation Project (the team version is a private fork so I can't share with link). This is my own effort to experimented the project before starting with the team. I implemented KMedoids + Random Forrest to predict training on Kaggle datasets. Left me a lot of headache:)",
-    "link": "github.com/Bill2926/BankFraudML"
+    "link": "https://github.com/Bill2926/BankFraudML"
   },
   {
     "id": 3,
