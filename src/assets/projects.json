@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Vic Roads Traffic Prediction",
+    "languages": "Python",
+    "description": "This is my project of unit COS30019 - Intro to AI. In this project, we implemented LSTM and GRU to predict the traffic flow of SCATS sites to then calculate the cost (estimated time taken), just like what Google Maps does.",
+    "link": "https://github.com/Bill2926/Group6_VicRoads"
+  },
+  {
+    "id": 2,
+    "title": "Detecting Bank Fraud Transaction Using ML",
+    "languages": "Python",
+    "description": "This is my personal version project of unit COS30049 - Innovation Project (the team version is a private fork so I can't share with link). This is my own effort to experimented the project before starting with the team. I implemented KMedoids + Random Forrest to predict training on Kaggle datasets. Left me a lot of headache:)",
+    "link": "github.com/Bill2926/BankFraudML"
+  },
+  {
+    "id": 3,
+    "title": "Capstone Bank",
+    "languages": "Python",
+    "description": "My effort to use and implement OOP using Python (Swb teaches C#). Also I was trying to understand XAMPP and the backend behind a simple Banking app (create account, transfer the money, etc). Looking back, the project struture is kinda:), it proves that I've made progress along the way.",
+    "link": "https://github.com/Bill2926/CapstoneBank"
+  }
+]
