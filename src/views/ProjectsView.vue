@@ -2,16 +2,16 @@
 import ProjectCard from '@/components/ProjectCard.vue'
 import Projects from '../assets/projects.json'
 import Java from '../assets/java.png'
-import { ref } from 'vue';
-import { useToast } from 'vue-toastification';
+import { ref } from 'vue'
+import { useToast } from 'vue-toastification'
 
-const toast = useToast();
+const toast = useToast()
 const coffeeCup = ref(0)
 
 function drink() {
-  coffeeCup.value++;
+  coffeeCup.value++
   if (coffeeCup.value == 5) {
-    toast.success("You're a real coffee addict!");
+    toast.success("You're a real coffee addict!")
   }
 }
 </script>
@@ -51,14 +51,16 @@ function drink() {
     </div>
 
     <div class="text-center my-5">
-    <div class="d-flex align-items-center justify-content-center">
-    <p class="display-6">Total Coffee Cup <span><img :src=Java style="width: 2rem; vertical-align: middle;"></span>: {{ coffeeCup }}</p>
-    </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <p class="display-6">
+          Total Coffee Cup
+          <span><img :src="Java" style="width: 2rem; vertical-align: middle" /></span>:
+          {{ coffeeCup }}
+        </p>
+      </div>
 
-    <!-- Use @click to trigger the function -->
-    <button @click="drink" class="btn btn-primary">
-      Click Me
-    </button>
-  </div>
+      <!-- Use @click to trigger the function -->
+      <button @click="drink" class="btn btn-primary">Click Me</button>
+    </div>
   </section>
 </template>

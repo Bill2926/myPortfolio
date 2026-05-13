@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Research and Academia",
+    "description": "I have loved math and computers since I was a kid. Back then, even with an old laptop that had only 2GB of RAM, I managed to code a small website for math materials using HTML and CSS. Fast forward to now, I remain passionate about researching AI and computer science. I am currently working hard to make up for lost time by immersing myself in research labs, scientific papers, and research competitions."
+  },
+  {
+    "id": 2,
+    "title": "Traveling",
+    "description": "I love traveling to different countries; my dream is to explore the world and perhaps even spend time working abroad. While my background does not provide the financial means to travel arbitrarily, I have a precious opportunity through education to earn scholarships. I am working hard to secure them so I can travel the world through academic pursuits."
+  },
+  {
+    "id": 3,
+    "title": "Languages",
+    "description": "I believe being able to fluently speak and understand multiple languages is incredible. Currently, I only speak Vietnamese and English, but I am planning to study French."
+  },
+  {
+    "id": 4,
+    "title": "Wealth",
+    "description": "I am not so greedy that I only think about money all the time, but I believe building stable and growing wealth is vital for a man to support his family, help others, and focus on his passions. Right now, I am investing in individual stocks, open-ended funds, and cash equivalents like Certificates of Deposit or High-Yield Savings accounts."
+  }
+]

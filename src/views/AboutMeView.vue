@@ -52,8 +52,12 @@ import SwbShield from '../assets/swb-shield.png'
           </p>
         </div>
         <div class="card-body d-flex g-2 justify-content-center">
-          <img :src="SwbFpt" class="w-25 w-md-100">
-          <img :src="SwbShield" class="w-25 w-md-100" style="filter: invert(100%) brightness(200%);">
+          <img :src="SwbFpt" class="w-25 w-md-100" />
+          <img
+            :src="SwbShield"
+            class="w-25 w-md-100"
+            style="filter: invert(100%) brightness(200%)"
+          />
         </div>
       </div>
     </div>

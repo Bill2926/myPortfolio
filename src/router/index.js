@@ -3,30 +3,36 @@ import AboutMeView from '@/views/AboutMeView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
 import ContactView from '@/views/ContactView.vue'
+import PlansView from '@/views/PlansView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/",
+      path: '/',
       name: 'AboutMe',
-      component: AboutMeView
+      component: AboutMeView,
     },
     {
-      path: "/projects",
+      path: '/projects',
       name: 'Projects',
-      component: ProjectsView
+      component: ProjectsView,
     },
     {
-      path: "/contact",
+      path: '/plans',
+      name: 'Plans',
+      component: PlansView,
+    },
+    {
+      path: '/contact',
       name: 'Contact',
-      component: ContactView
+      component: ContactView,
     },
     {
       path: '/:pathMatch(.*)*',
       name: 'NotFound',
-      component: NotFoundView
-    }
+      component: NotFoundView,
+    },
   ],
 })
 

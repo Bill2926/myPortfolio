@@ -9,11 +9,10 @@
           I'd love to broaden my connection so feel free to contact me at anytime:)
         </p>
       </div>
-      <div class="col-12 col-lg-4 d-flex flex-row flex-md-column justify-content-center align-items-center gap-2">
-        <a
-          href="https://www.instagram.com/_simply.duck/"
-          class="text-reset"
-          target="_blank"
+      <div
+        class="col-12 col-lg-4 d-flex flex-row flex-md-column justify-content-center align-items-center gap-2"
+      >
+        <a href="https://www.instagram.com/_simply.duck/" class="text-reset" target="_blank"
           ><i class="bi bi-instagram fs-1"></i
         ></a>
         <a
