@@ -6,7 +6,7 @@ import ContactView from '@/views/ContactView.vue'
 import PlansView from '@/views/PlansView.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory('/myPortfolio/'),
   routes: [
     {
       path: '/',
