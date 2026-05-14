@@ -45,7 +45,7 @@ function drink() {
     </div>
 
     <div class="row g-4">
-      <div v-for="p in Projects" :key="p.id" class="col-12 w-75 mx-auto">
+      <div v-for="p in Projects" :key="p.id" class="col-12 col-md-9 mx-auto">
         <ProjectCard :aProj="p" />
       </div>
     </div>
